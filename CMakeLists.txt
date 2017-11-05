@@ -69,7 +69,8 @@ install(
   LIBRARY DESTINATION "lib"
   ARCHIVE DESTINATION "lib"
   RUNTIME DESTINATION "bin"
-  INCLUDES DESTINATION "${include_install_dir}"
+# No headers
+#  INCLUDES DESTINATION "${include_install_dir}"
   )
 
 # The original package has no exported header files
